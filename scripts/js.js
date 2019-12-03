@@ -1,3 +1,25 @@
+$(document).ready(function() {
+    // run test on initial page load
+    mobileChanges();
+
+    // run test on resize of the window
+    $(window).resize(mobileChanges);
+});
+
+function mobileChanges(){
+    if ($(".col-md-6").css("margin-bottom") == "20px" ){
+        // your code here
+        $(".entry-title img").css("width", "300px");
+    }
+
+    $(".gImage").removeClass("noRightPaddingMargin noLeftPaddingMargin");
+}
+
+
+
+/*
+
+
 // var contents = ""; // string representing the content of the file
 var mapper = []; // create an empty array
 
@@ -115,3 +137,7 @@ function msToTime(duration) {
 
     return hours + ":" + minutes + ":" + seconds + "." + milliseconds;
 }
+
+
+
+*/
