@@ -139,32 +139,26 @@
 <div style="background-color: black">
         <div class="container m-t-md" style="padding-bottom: 50px;">
       <!-- First row -->
-        <h1 style="color: white; padding-top: 50px"> Meeting Dates and Events</h1>
+        <h1 style="color: white; padding-top: 50px"> Meetings and Events</h1>
       <div class="row" style="padding-top: 30px;">
         <div class="col-xs-12 col-md-4">
-            <h3> Project meetings: </h3>
-                <ul>
-                    <li>Time: Thurs/Fri 5:30pm</li>  
-                    <li>Location: TBE-B 162</li>
-                </ul>
-            </div>
-
-       <div class="col-xs-12 col-md-4">
+          <h3> Project Meetings: </h3>
+          <ul id = "project_meetings">
+            <!-- loaded by autofill.js -->
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-4">
           <h3> General meetings: </h3>
-            <ul>
-                <li>TBD for Spring Semester </li>
+            <ul id ="general_meetings">
+              <!-- loaded by autofill.js -->
             </ul>
         </div>
-
-
-         <div class="col-xs-12 col-md-4">
-           <h3> Upcoming launches: </h3>
-                <ul>
-                    <li>Dec 21, 2019</li>  
-                      
-                </ul>
+        <div class="col-xs-12 col-md-4">
+          <h3> Upcoming launches: </h3>
+            <ul id="upcoming_launches">
+              <!-- loaded by autofill.js -->
+            </ul>
         </div>
-
       </div><!-- .end First row -->
     </div>
 </div>
@@ -178,7 +172,7 @@
         <div class="col-xs-12 col-md-6">
             <p>Students for the Exploration and Development of Space (SEDS) empowers students to participate and make an impact in space exploration. <br> <br>SEDS helps students develop their technical and leadership skills by providing opportunities to manage and participate in national projects as well as to attend conferences, publish their work, and develop their professional network, in order to help students become more effective in their present and future careers in industry, academia, government, and education.</p>
             
-            <a href="membership.html">
+            <a href="pages/membership.html">
                 <button type="button" class="btn btn-primary redButton">Become a Member</button>
             </a>
         </div>
@@ -208,20 +202,7 @@
       
 </div>
 
-      
-      <style>
-      
- 
-
-      </style>
-
-      
-      
-<!--   <div class="content-main">scroll</div>-->
-
-
-
-    <!-- Optional JavaScript -->
+  <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -230,6 +211,7 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/ismobilejs@1/dist/isMobile.min.js"></script> -->
 
     <script src="scripts/js.js" ></script>
-  
+    <script src="scripts/autoFill.js"></script> <!-- automatic updates of content -->
+
   </body>
 </html>

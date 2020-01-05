@@ -1,0 +1,38 @@
+{
+    "meetings_and_events": {
+        "project_meetings": {
+            "time": "Thursday & Friday 5:30pm",
+            "location": "TBE-B 162"
+        },
+        "general_meetings": {
+            "dates": [
+                "Date 1",
+                "Date 2",
+                "Date 3"
+            ],
+            "location": "Great Hall"
+        },
+        "upcoming_launches": {
+            "dates": [
+                "Date 1",
+                "Date 2",
+                "Date 3"
+            ],
+            "location": "Dry lake"
+        }
+    }, 
+    "contact": {
+        "email": {
+            "url": "seds@unlv.edu"
+        },
+        "instagram": {
+            "url": "https://www.instagram.com/sedsunlv/"
+        },
+        "facebook": {
+            "url": "https://www.facebook.com/sedsunlv/"
+        },
+        "youtube": {
+            "url": "https://www.youtube.com/channel/UCsZVNjRN5Dt3QDY0_PHx53A"
+        }
+    }
+}
