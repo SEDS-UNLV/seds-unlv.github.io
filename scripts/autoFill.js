@@ -100,3 +100,24 @@ fb_tag.href = autofill_json.contact.facebook.url
 
 var yt_tag = document.getElementById('youtube_icon_link');
 yt_tag.href = autofill_json.contact.youtube.url
+
+if (document.getElementById("contact_info")) {
+    // address
+    var parent_element = document.getElementById("contact_info");
+    var list_item = document.createElement("li");
+    list_item.style.color = "black";
+    var text_node = document.createTextNode(autofill_json.contact.address)
+    list_item.appendChild(text_node)
+
+    parent_element.appendChild(list_item)
+
+
+    // email
+    var parent_element = document.getElementById("contact_info");
+    var list_item = document.createElement("li");
+    list_item.style.color = "black";
+    var text_node = document.createTextNode(autofill_json.contact.email.url)
+    list_item.appendChild(text_node)
+
+    parent_element.appendChild(list_item)
+}
