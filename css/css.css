@@ -180,6 +180,9 @@ ul.social-icons {
   text-align: left;
 }
 
+.blackText {
+    color: black
+}
 
 .title {
     font-size: 5em;
