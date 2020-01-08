@@ -144,10 +144,10 @@ ul.social-icons {
     color: #616161;
 }
 
-.active, .btn:hover {
+/* .active, .btn:hover {
     background-color: #666;
     color: white;
-}
+} */
 
 .nav-item::after  {
 /*    border-bottom: 1px solid white!important;*/
