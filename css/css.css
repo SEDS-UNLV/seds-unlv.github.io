@@ -134,10 +134,19 @@ ul.social-icons {
   background-repeat: no-repeat;
  }
 
+.nav-link:after{
+    content: "";
+    text-decoration: underline;
+}
 .contactText {
     text-align: left;
     padding-top: 10px;
     color: #616161;
+}
+
+.active, .btn:hover {
+    background-color: #666;
+    color: white;
 }
 
 .nav-item::after  {
@@ -147,7 +156,6 @@ ul.social-icons {
 .currentLink {
     border-bottom: 1px solid blue;
 }
-
 
 .hero {
   background-color: #fff;
