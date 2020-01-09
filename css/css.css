@@ -184,6 +184,14 @@ ul.social-icons {
     color: black
 }
 
+.redText {
+    color: #AE1902;
+}
+
+.whiteText{
+    color: white;
+}
+
 .title {
     font-size: 5em;
 }
