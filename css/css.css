@@ -192,6 +192,11 @@ ul.social-icons {
     color: white;
 }
 
+.boldText{
+    font-weight: 800;
+}
+
+
 .title {
     font-size: 5em;
 }
