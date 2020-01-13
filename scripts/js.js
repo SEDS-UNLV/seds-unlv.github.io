@@ -12,7 +12,8 @@ function mobileChanges(){
         console.log("lol")
         $(".entry-title img").css("width", "300px");
         $(".gImage").removeClass("noRightPaddingMargin noLeftPaddingMargin");
-    }
+        $(".tableBorderRight").removeClass("tableBorderRight")
+    }   
 
 }
 
