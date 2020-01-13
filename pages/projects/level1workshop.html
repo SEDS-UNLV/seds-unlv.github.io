@@ -55,21 +55,16 @@
 
 </style>
     
-    
-
-
-    
     <div id="mainSection">
         <div class="container m-t-md">
- 
-
-
-
-        
 <!--        Gallery -->
         <div class="row" style="margin-top: 40px">
             <div class="container m-t-md">
-            <h1 class="galleryPadding">The Level 1 Experience!</h1>
+            <div class="row">
+                <div class="col">
+                    <h1 class="galleryPadding">The Level 1 Experience!</h1>
+                </div>
+            </div>
 <!--                Top Row-->
             <div class="row">
                 <div class="col ">
@@ -108,9 +103,9 @@
             </div>
 
             <div class="row">
-                <div class="col noRightPaddingMargin">
+                <div class="col ">
                     <div class="galleryPadding">
-                        <img id="galImg5" class="img-fluid galImg" src="../../imgs/level1/rocket_tubes.jpg" alt = "Rockets, painted and ready to launch">
+                        <img id="galImg5" class="img-fluid galImg" src="../../imgs/level1/placing_rocket.JPG" alt = "Victor, Jake, and Nick preparing rocket for launch">
                     </div>
                 </div>
             </div>
@@ -128,77 +123,59 @@
                     </div>
                 </div>
             </div>
-            
+        </div>
+    </div>
+
+        <div id="myModal0" class="modal">
+        <span class="close" id="close0">&times;</span>
+        <img class="modal-content" id="galImg00">
+        <div class="caption" id="caption0">My first caption</div>
+        </div>
                 
-<!--                Third Row-->
+        <div id="myModal1" class="modal">
+        <span class="close" id="close1">&times;</span>
+        <img class="modal-content" id="galImg01">
+        <div class="caption" id="caption1">My second caption</div>
+        </div>
+                
+        <div id="myModal2" class="modal">
+        <span class="close" id="close2">&times;</span>
+        <img class="modal-content" id="galImg02">
+        <div class="caption" id="caption2"></div>
+        </div>
+                
+        <div id="myModal3" class="modal">
+        <span class="close" id="close3">&times;</span>
+        <img class="modal-content" id="galImg03">
+        <div class="caption" id="caption3"></div>
+        </div>
+                        
+        <div id="myModal4" class="modal">
+        <span class="close" id="close4">&times;</span>
+        <img class="modal-content" id="galImg04">
+        <div class="caption" id="caption4"></div>
+        </div>
 
-            
-            
-            </div>
+        <div id="myModal5" class="modal">
+            <span class="close" id="close5">&times;</span>
+            <img class="modal-content" id="galImg05">
+            <div class="caption" id="caption5"></div>
+        </div>
 
-            
+        <div id="myModal6" class="modal">
+            <span class="close" id="close6">&times;</span>
+            <img class="modal-content" id="galImg06">
+            <div class="caption" id="caption6"></div>
+        </div>
+
+        <div id="myModal7" class="modal">
+            <span class="close" id="close7">&times;</span>
+            <img class="modal-content" id="galImg07">
+            <div class="caption" id="caption7"></div>
         </div>
         
-        
+    </div>  
 
-<div id="myModal0" class="modal">
-  <span class="close" id="close0">&times;</span>
-  <img class="modal-content" id="galImg00">
-  <div class="caption" id="caption0">My first caption</div>
-</div>
-        
-
-<div id="myModal1" class="modal">
-  <span class="close" id="close1">&times;</span>
-  <img class="modal-content" id="galImg01">
-  <div class="caption" id="caption1">My second caption</div>
-</div>
-        
-        
-<div id="myModal2" class="modal">
-  <span class="close" id="close2">&times;</span>
-  <img class="modal-content" id="galImg02">
-  <div class="caption" id="caption2"></div>
-</div>
-        
-        
-<div id="myModal3" class="modal">
-  <span class="close" id="close3">&times;</span>
-  <img class="modal-content" id="galImg03">
-  <div class="caption" id="caption3"></div>
-</div>
-        
-                
-<div id="myModal4" class="modal">
-  <span class="close" id="close4">&times;</span>
-  <img class="modal-content" id="galImg04">
-  <div class="caption" id="caption4"></div>
-</div>
-
-<div id="myModal5" class="modal">
-    <span class="close" id="close5">&times;</span>
-    <img class="modal-content" id="galImg05">
-    <div class="caption" id="caption5"></div>
-</div>
-
-<div id="myModal6" class="modal">
-    <span class="close" id="close6">&times;</span>
-    <img class="modal-content" id="galImg06">
-    <div class="caption" id="caption6"></div>
-</div>
-
-<div id="myModal7" class="modal">
-    <span class="close" id="close7">&times;</span>
-    <img class="modal-content" id="galImg07">
-    <div class="caption" id="caption7"></div>
-</div>
-        
-        
-        
-</div>  
-
-    
-    
     <div class="footer" style="background-color: black">
         <img class="footerImage" src="../../imgs/SEDS_UNLV_white.png" width="100px">
         <p class="footerP" style="text-align: center">Email: <a style="color:#AE1902" href="mailto:seds@unlv.edu">seds@unlv.edu</a></p>
@@ -209,8 +186,6 @@
             <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
         </ul>
     </div>
-      
-
   </body>
 </html>
 
@@ -259,24 +234,12 @@ for (var i = 0; i < numImages; i++) {
     
     modalArr.push(modal);
     imgArr.push(img);
-//    console.log(img.src);
-//    console.log(img.alt);
     srcArr.push(img.src);
     altArr.push(img.alt);
     modalImgArr.push(modalImg);
     captionTagArr.push(captionTag);
     spanArr.push(span);
 }
-        
-        
-//console.log(modalArr)
-//console.log(imgArr)
-//console.log(modalImgArr)
-//console.log(captionTagArr)
-//console.log(spanArr)
-//console.log(srcArr)
-//console.log(altArr)
-        
         
         
 function enlarge() {
@@ -286,32 +249,15 @@ function enlarge() {
     modalImgArr[number].src = this.src;
     captionTagArr[number].innerHTML = this.alt;
 }
-        
 function close() {
-    
     var number = this.id.split('close')[1];
     modalArr[number].style.display = "none";
 }
-      
 
-        
-        
 for (var i = 0; i < numImages; i++) {
     console.log(imgArr[i]);
     imgArr[i].onclick = enlarge;
     spanArr[i].onclick = close;
 }        
-        
-
-
-    
-
-
-
 
 </script>
-
-
-
-
-

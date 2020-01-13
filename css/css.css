@@ -184,6 +184,11 @@ ul.social-icons {
     color: black
 }
 
+.row {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
 .redText {
     color: #AE1902;
 }
