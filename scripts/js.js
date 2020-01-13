@@ -9,10 +9,11 @@ $(document).ready(function() {
 function mobileChanges(){
     if ($(".col-md-6").css("margin-bottom") == "20px" ){
         // your code here
+        console.log("lol")
         $(".entry-title img").css("width", "300px");
+        $(".gImage").removeClass("noRightPaddingMargin noLeftPaddingMargin");
     }
 
-    $(".gImage").removeClass("noRightPaddingMargin noLeftPaddingMargin");
 }
 
 

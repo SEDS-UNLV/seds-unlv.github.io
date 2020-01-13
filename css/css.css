@@ -240,7 +240,6 @@ ul.social-icons {
     margin-right: 0px!important;
 }
 
-
 .noLeftPaddingMargin {
     padding-left: 0px!important;
     margin-left: 0px!important;
@@ -327,15 +326,15 @@ li {
 
 
 .masthead .entry-title {
-  font-size: 5.5em;
+  font-size: 5em;
   line-height: 1;
   font-weight: 700;
   margin: 0 0 0.25em 0;
     text-align: center;
 
   @media screen and (min-width: 640px) {
-    max-width: 650px;
-    font-size: 4em;
+    max-width: 640px;
+    font-size: 3.5em;
   }
 }
 
@@ -494,7 +493,10 @@ li {
   .modal-content {
     width: 100%;
   }
+
 }
+
+
 
 
 
@@ -518,6 +520,10 @@ li {
     .col-md-3 {
         margin-bottom: 20px;
 
+    }
+
+    #sp2019_first_row {
+        margin-top: 20px!important;
     }
 
 }
