@@ -14,19 +14,19 @@ var autofill =
         },
         "general_meetings": {
             "dates": [
-                "Date 1",
-                "Date 2",
-                "Date 3"
+                "Thursday, January 30th 6pm",
+                " Wednesday, March 4th 6pm",
+                "Thursday, April 23rd 6pm"
             ],
-            "location": "Great Hall"
+            "location": " TBE-A 107"
         },
         "upcoming_launches": {
             "dates": [
-                "2/15/2020",
-                "3/20/2020",
-                "4/18/2020"
+                "February 15th, 2020 (Tripoli)",
+                "March 20th, 2020 (Tripoli)",
+                "April 18th, 2020 (Tripoli)"
             ],
-            "location": "Jean Roach Dry lake"
+            "location": "Jean Roach Dry Lake"
         }
     }, 
     "contact": {

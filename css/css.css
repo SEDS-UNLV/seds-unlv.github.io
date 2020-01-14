@@ -166,6 +166,15 @@ ul.social-icons {
 /*  // height: 75vh; // Specify a height to push the hero open, or...*/
 }
 
+.aboutHero {
+    background-color: #fff;
+    background-image: url("../imgs/aboutImage.JPG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  /*  // height: 75vh; // Specify a height to push the hero open, or...*/
+  }
+
 .heroContact {
   background-color: #fff;
   background-image: url("../imgs/contact/header.JPG");
@@ -175,9 +184,27 @@ ul.social-icons {
 /*  // height: 75vh; // Specify a height to push the hero open, or...*/
 }
 
+.membershipHero {
+    background-color: #fff;
+    background-image: url("../imgs/misc/membership_hero.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .hero__content {
-  padding: 5rem 3rem 15rem 3rem; 
-  text-align: left;
+    padding: 10rem 0rem 20rem 0rem; 
+    text-align: left;
+}
+
+.membershipHero__content {
+    padding: 0rem 0rem 40rem 0rem; 
+    text-align: left;
+}
+
+
+.aboutHero__content {
+    padding: 0rem 0rem 30rem 0rem; 
 }
 
 .blackText {
@@ -224,7 +251,6 @@ ul.social-icons {
     float: none;
     margin: 0 auto;
 }
-
 
 .tableBorderRight {
     border-right: 1px dashed gray;
@@ -529,6 +555,20 @@ li {
 
     #sp2019_first_row {
         margin-top: 20px!important;
+    }
+
+    .membershipHero__content {
+        padding: 0rem 0rem 10rem 0rem; 
+        text-align: left;
+      }
+
+      .hero__content {
+          display: none;
+      }
+
+      .aboutHero__content {
+        padding: 0rem 0rem 9rem 0rem; 
+        text-align: left;
     }
 
 }
