@@ -48,15 +48,45 @@
                 </ul>
             </div>
             </nav>
-    
 
-</style>
+            <div class="masthead responsive-image">
+                    <header class="entry-header">
+                      <h1 class="entry-title" id="level_1_title">Level 1 Certification</h1>
+                      <h2 class="entry-subtitle">Designing and Building Rockets for Level 1 Tripoli Certification </h2>
+                    </header>
+                </div>
+            
+        <style>
+          .responsive-image {
+            background-image: url("../../imgs/level1/cover.JPG");
+          }
+        /* For mobile */
+          @media screen and (min-width: 320px) {     
+            .responsive-image {
+              background-image: url("../../imgs/level1/mobile_cover.JPG");
+            }
+          }
+          @media screen and (min-width: 640px)
+          {
+            .responsive-image {
+              background-image: url("../../imgs/level1/cover.JPG");
+            }
+          }
+        </style>
     
     <div id="mainSection">
         <div class="container m-t-md">
 <!--        Gallery -->
         <div class="row" style="margin-top: 40px">
             <div class="container m-t-md">
+            <div class="row">
+                <div class="col">
+                    <h1>Level 1 Design Guide</h1>
+                    <iframe src="../../imgs/level1/L1_Design_Guide_BF.pdf" width="100%" height="900px">
+                    </iframe>
+                </div>
+            </div>
+            
             <div class="row">
                 <div class="col">
                     <h1 class="galleryPadding">The Level 1 Experience!</h1>
@@ -72,13 +102,13 @@
             </div>    
 <!--            Top Row-->
             <div class="row">
-                <div class="col-md-6 noRightPaddingMargin">
+                <div class="col-md-6 gImage noRightPaddingMargin">
                     <div class="galleryPadding">
                           <img id="galImg1" class="img-fluid galImg" src="../../imgs/level1/folding.jpg" alt = "Two members floating a parachute before launch">
                     </div>
                 </div>
                 
-                <div class="col-md-6 noLeftPaddingMargin">
+                <div class="col-md-6 gImage noLeftPaddingMargin">
                    <div class="galleryPadding">
                       <img id="galImg2" class="img-fluid galImg" src="../../imgs/level1/individual.JPG" alt = "Brandon Fallon showing off his level 1 rocket">
                     </div>
@@ -86,13 +116,13 @@
             </div>
                 
             <div class="row">
-                <div class="col-md-6 noRightPaddingMargin">
+                <div class="col-md-6 gImage noRightPaddingMargin">
                     <div class="galleryPadding">
                       <img id="galImg3" class="img-fluid galImg" src="../../imgs/level1/group5.JPG" alt = "10/19/19 launch squad">
                     </div>
                 </div>
                 
-                <div class="col-md-6 noLeftPaddingMargin">
+                <div class="col-md-6 gImage noLeftPaddingMargin">
                     <div class="galleryPadding">
                       <img id="galImg4" class="img-fluid galImg" src="../../imgs/level1/group1.jpg" alt = "11/26/19 launch squad">
                     </div>
@@ -108,13 +138,13 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6 noRightPaddingMargin">
+                <div class="col-md-6 gImage noRightPaddingMargin">
                     <div class="galleryPadding">
                         <img id="galImg6" class="img-fluid galImg" src="../../imgs/level1/building.jpg" alt = "Members designing level 1 rockets in solidworks">
                     </div>
                 </div>
                 
-                <div class="col-md-6 noLeftPaddingMargin">
+                <div class="col-md-6 gImage noLeftPaddingMargin">
                     <div class="galleryPadding">
                         <img id="galImg7" class="img-fluid galImg" src="../../imgs/level1/cert2.jpg" alt = "Level 1 certification card">
                     </div>
@@ -191,10 +221,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="../scripts/autoFill.js"></script> <!-- automatic updates of content -->
-
+    <script src="../../scripts/autoFill.js"></script> <!-- automatic updates of content -->
+    <script src="../../scripts/js.js"></script>
     
-    <script>
+<script>
 // Get the modal
         
 var numImages = 8;  // define number of images

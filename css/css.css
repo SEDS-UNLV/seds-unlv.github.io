@@ -193,7 +193,7 @@ ul.social-icons {
 }
 
 .hero__content {
-    padding: 10rem 0rem 20rem 0rem; 
+    padding: 10rem 0rem 10rem 0rem; 
     text-align: left;
 }
 
@@ -569,6 +569,10 @@ li {
       .aboutHero__content {
         padding: 0rem 0rem 9rem 0rem; 
         text-align: left;
+    }
+
+    #level_1_title {
+        font-size: 3em;
     }
 
 }
