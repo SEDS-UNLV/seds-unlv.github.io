@@ -553,10 +553,17 @@ li {
 
 }
 
+.card-block{
+    min-height: 350px!important;
+}
 
-
-
-
+.card-button {
+    position: absolute;
+    /* width: 80%; */
+    /* margin-right: 10%; */
+    /* margin-left: 10%; */
+    bottom: 10px;
+}
 
 .officerTitle {
     /* font-size: .9em; */
