@@ -5,7 +5,7 @@ red for highlights: #AE1902
 */
 
 
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap');
 /* Social media buttons */
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
@@ -23,10 +23,13 @@ ul {
     color: #fff;
 }
 
-h1,h4 {
+h1,h4,h5,h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+p,h6,li, button {
+    font-family: 'Roboto', sans-serif;
+}
 
 ul.social-icons {
     margin-top: 10px;
@@ -556,7 +559,7 @@ li {
 
 
 .officerTitle {
-    font-size: .9em;
+    /* font-size: .9em; */
     color:#AE1902;
 }
 

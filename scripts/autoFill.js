@@ -14,9 +14,9 @@ var autofill =
         },
         "general_meetings": {
             "dates": [
-                "Thursday, January 30th 6pm",
-                " Wednesday, March 4th 6pm",
-                "Thursday, April 23rd 6pm"
+                "Thursday, January 30th 6 PM",
+                " Wednesday, March 4th 6 PM",
+                "Thursday, April 23rd 6 PM"
             ],
             "location": " TBE-A 107"
         },
