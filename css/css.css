@@ -184,6 +184,14 @@ ul.social-icons {
 /*  // height: 75vh; // Specify a height to push the hero open, or...*/
 }
 
+.heroUE {
+    background-color: #fff;
+    background-image: url("../imgs/misc/upcoming_events_header.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .membershipHero {
     background-color: #fff;
     background-image: url("../imgs/misc/membership_hero.JPG");
@@ -194,6 +202,11 @@ ul.social-icons {
 
 .hero__content {
     padding: 10rem 0rem 10rem 0rem; 
+    text-align: left;
+}
+
+.hero__UE {
+    padding: 3rem 0rem 22rem 0rem; 
     text-align: left;
 }
 
