@@ -2,14 +2,10 @@
 
 red for highlights: #AE1902
 
-
-
-
 */
 
 
-     
-      
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 /* Social media buttons */
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
@@ -26,6 +22,12 @@ ul {
 .social-icon {
     color: #fff;
 }
+
+h1,h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
 ul.social-icons {
     margin-top: 10px;
 }
@@ -132,6 +134,10 @@ ul.social-icons {
   background-color:red;
   background-image: none;
   background-repeat: no-repeat;
+ }
+
+ .nav-link {
+    font-family: 'Oswald', sans-serif;
  }
 
 .nav-link:after{
@@ -302,10 +308,12 @@ ul.social-icons {
 
 .redTitle{
     color: #AE1902;
+    font-family: 'Oswald', sans-serif;
 }
 
 h3 {
     color: #AE1902;
+    font-family: 'Oswald', sans-serif;
 }
 
 li {
@@ -360,6 +368,7 @@ li {
 .masthead .entry-header {
   margin: 12.5em 0 3.5em 0;
   font-weight: 300;
+  font-family: 'Oswald', sans-serif;
   line-height: 1.5;
   overflow: auto;
 
@@ -373,6 +382,7 @@ li {
   font-size: 5em;
   line-height: 1;
   font-weight: 700;
+  font-family: 'Oswald', sans-serif;
   margin: 0 0 0.25em 0;
     text-align: center;
 

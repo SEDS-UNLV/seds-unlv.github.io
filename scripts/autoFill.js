@@ -46,19 +46,16 @@ var autofill =
     }, 
     "upcoming_events": [
         {
-            "name": "Event 1",
-            "date": "date 1",
-            "time": "time 1"
+            "name": "General Meeting 1",
+            "date": "Thur. Jan 30"
         },
         {
-            "name": "Event 2",
-            "date": "date 2",
-            "time": "time 2"
+            "name": "General Meeting 2",
+            "date": "Wed. Mar 4"
         },
         {
-            "name": "Event 3",
-            "date": "date 3",
-            "time": "time 3"
+            "name": "General Meeting 3",
+            "date": "Thur. Apr 23"
         }
     ]
 }
@@ -144,41 +141,17 @@ if (document.getElementById("upcoming_events_table")) {
     for (let i = 0; i < autofill_json.upcoming_events.length; i++) {
         var t_row = document.createElement("tr");
         var t_d1 = document.createElement("td");
-        var t_d1_text = document.createTextNode(autofill_json.upcoming_events[i].name)
+        var t_d1_text = document.createTextNode(autofill_json.upcoming_events[i].date)
         t_d1.appendChild(t_d1_text);
         t_row.appendChild(t_d1);
     
     
         var t_d2 = document.createElement("td");
-        var t_d2_text = document.createTextNode(autofill_json.upcoming_events[i].date)
+        var t_d2_text = document.createTextNode(autofill_json.upcoming_events[i].name)
         t_d2.appendChild(t_d2_text);
         t_row.appendChild(t_d2);
     
         var t_body = document.getElementById("upcoming_events_table");
         t_body.appendChild(t_row);
-    
-    
-        // var t_d3 = document.createElement("td");
-        // var t_d3_text = document.createTextNode(autofill_json.upcoming_events[i].date)
-        // t_d2.appendChild(t_d2_text);
-        // t_row.appendChild(t_d2);
-    
     }
-}
-
-
-function populateEventsTable(jsonpath, id_name){
-    for (let i = 0; i < (jsonpath.dates).length; i++) {
-        var list_item = document.createElement("li");
-        var text_node = document.createTextNode(jsonpath.dates[i]);
-        list_item.appendChild(text_node);
-        var parent_element = document.getElementById(id_name);
-        parent_element.appendChild(list_item);
-    }
-    
-    var list_item = document.createElement("li");
-    var text_node = document.createTextNode("Location: " + jsonpath.location);
-    list_item.appendChild(text_node);
-    var parent_element = document.getElementById(id_name);
-    parent_element.appendChild(list_item);
 }
