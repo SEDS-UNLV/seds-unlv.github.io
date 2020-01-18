@@ -276,11 +276,11 @@ ul.social-icons {
 }
 
 .tableBorderRight {
-    border-right: 1px dashed gray;
+    border-right: 1px solid gray;
 }
 
 .tableBorderLeft {
-    border-left: 1px dashed gray;
+    border-left: 1px solid gray;
 }
 
 .bolded {
