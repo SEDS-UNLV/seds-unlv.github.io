@@ -7,8 +7,8 @@ var autofill =
     "meetings_and_events": {
         "project_meetings": {
             "dates": [
-                "Wednesdays 5:30pm",
-                "Thursdays 5:30pm"
+                "Wednesdays 5:30 PM",
+                "Thursdays 5:30 PM"
             ],
             "location": "TBE-B 162"
         },
@@ -46,16 +46,44 @@ var autofill =
     }, 
     "upcoming_events": [
         {
-            "name": "General Meeting 1",
-            "date": "Thur. Jan 30"
+            "name": "First General Meeting",
+            "location" : "Location TBD",
+            "date": "Jan. 30, 6 PM"
         },
         {
-            "name": "General Meeting 2",
-            "date": "Wed. Mar 4"
+            "name": "Resume Workshop",
+            "location" : "Location TBD",
+            "date": "Feb. 10, 6PM"
         },
         {
-            "name": "General Meeting 3",
-            "date": "Thur. Apr 23"
+            "name": "Tripoli Rocket Launch",
+            "location" : "Jean Dry Lake Bed",
+            "date": "Feb. 15, 7 AM"
+        },
+        {
+            "name": "Introduce a Kid to Engineering Day",
+            "location" : "Location TBD",
+            "date": "Feb. 22, 8 AM - 4 PM"
+        },
+        {
+            "name": "Second General Meeting",
+            "location" : "Location TBD",
+            "date": "Mar. 4, 6 PM"
+        },
+        {
+            "name": "Tripoli Rocket Launch",
+            "location" : "Jean Dry Lake Bed",
+            "date": "Mar. 20, 7 AM"
+        },
+        {
+            "name": "Third General Meeting",
+            "location" : "Location TBD",
+            "date": "Apr. 23, 6PM"
+        },
+        {
+            "name": "Resume Workshop",
+            "location" : "Location TBD",
+            "date": "Feb. 10, 6PM"
         }
     ]
 }
@@ -63,7 +91,6 @@ var autofill =
 `
 // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 // ---------------------- UPDATE THIS INFORMATION ----------------------
-
 
 // Don't touch code below
 var autofill_json = JSON.parse(autofill);
@@ -145,11 +172,15 @@ if (document.getElementById("upcoming_events_table")) {
         t_d1.appendChild(t_d1_text);
         t_row.appendChild(t_d1);
     
-    
         var t_d2 = document.createElement("td");
-        var t_d2_text = document.createTextNode(autofill_json.upcoming_events[i].name)
+        var t_d2_text = document.createTextNode(autofill_json.upcoming_events[i].location)
         t_d2.appendChild(t_d2_text);
         t_row.appendChild(t_d2);
+
+        var t_d3 = document.createElement("td");
+        var t_d3_text = document.createTextNode(autofill_json.upcoming_events[i].name)
+        t_d3.appendChild(t_d3_text);
+        t_row.appendChild(t_d3);
     
         var t_body = document.getElementById("upcoming_events_table");
         t_body.appendChild(t_row);

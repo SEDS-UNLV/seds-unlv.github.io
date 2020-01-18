@@ -141,6 +141,7 @@ ul.social-icons {
 
  .nav-link {
     font-family: 'Oswald', sans-serif;
+    color: #d6d2d2!important;
  }
 
 .nav-link:after{
@@ -215,18 +216,18 @@ ul.social-icons {
 }
 
 .hero__UE {
-    padding: 3rem 0rem 22rem 0rem; 
+    padding: 0rem 0rem 20rem 0rem; 
     text-align: left;
 }
 
 .membershipHero__content {
-    padding: 0rem 0rem 40rem 0rem; 
+    padding: 0rem 0rem 20rem 0rem; 
     text-align: left;
 }
 
 
 .aboutHero__content {
-    padding: 0rem 0rem 30rem 0rem; 
+    padding: 0rem 0rem 20rem 0rem; 
 }
 
 .blackText {
@@ -554,15 +555,15 @@ li {
 }
 
 .card-block{
-    min-height: 350px!important;
+    /* min-height: 350px!important; */
 }
 
 .card-button {
-    position: absolute;
+
     /* width: 80%; */
     /* margin-right: 10%; */
     /* margin-left: 10%; */
-    bottom: 10px;
+    /* bottom: 10px; */
 }
 
 .officerTitle {
@@ -591,7 +592,7 @@ li {
     }
 
     .membershipHero__content {
-        padding: 0rem 0rem 10rem 0rem; 
+        padding: 0rem 0rem 30rem 0rem; 
         text-align: left;
       }
 
