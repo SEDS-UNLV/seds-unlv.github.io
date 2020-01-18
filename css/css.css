@@ -605,6 +605,14 @@ li {
         text-align: left;
     }
 
+    .membershipHero__content {
+        padding: 0rem 0rem 6rem 0rem; 
+    }
+    .paypal_buttons {
+        width: 100%!important;
+        padding-top: 20px;
+    }
+
     #level_1_title {
         font-size: 3em;
     }

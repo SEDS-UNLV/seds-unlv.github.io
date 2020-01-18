@@ -154,11 +154,11 @@ if (document.getElementById("contact_info")) {
 
 
     // email
-    var parent_element = document.getElementById("contact_info");
-    var list_item = document.createElement("li");
-    list_item.style.color = "black";
-    var text_node = document.createTextNode(autofill_json.contact.email.url)
-    list_item.appendChild(text_node)
+    // var parent_element = document.getElementById("contact_info");
+    // var list_item = document.createElement("li");
+    // list_item.style.color = "black";
+    // var text_node = document.createTextNode(autofill_json.contact.email.url)
+    // list_item.appendChild(text_node)
 
     parent_element.appendChild(list_item)
 }
