@@ -7,16 +7,15 @@ var autofill =
     "meetings_and_events": {
         "project_meetings": {
             "dates": [
-                "Wednesdays 5:30 PM",
-                "Thursdays 5:30 PM"
+                "Thursdays 5:30 PM",
+                "Fridays 5:30 PM"
             ],
-            "location": "TBE-B 162"
+            "location": "TBE-B 162 (Machine Shop)"
         },
         "general_meetings": {
             "dates": [
-                "Thursday, January 30th 6 PM",
-                " Wednesday, March 4th 6 PM",
-                "Thursday, April 23rd 6 PM"
+                "Thursday, January 30th 6 PM"
+                
             ],
             "location": " TBE-A 107"
         },
@@ -47,12 +46,12 @@ var autofill =
     "upcoming_events": [
         {
             "name": "First General Meeting",
-            "location" : "Location TBD",
+            "location" : "TBE A-107",
             "date": "Jan. 30, 6 PM"
         },
         {
             "name": "Resume Workshop",
-            "location" : "Location TBD",
+            "location" : "TBE B-367",
             "date": "Feb. 10, 6PM"
         },
         {
@@ -62,7 +61,7 @@ var autofill =
         },
         {
             "name": "Introduce a Kid to Engineering Day",
-            "location" : "Location TBD",
+            "location" : "TBE",
             "date": "Feb. 22, 8 AM - 4 PM"
         },
         {
@@ -79,11 +78,6 @@ var autofill =
             "name": "Third General Meeting",
             "location" : "Location TBD",
             "date": "Apr. 23, 6PM"
-        },
-        {
-            "name": "Resume Workshop",
-            "location" : "Location TBD",
-            "date": "Feb. 10, 6PM"
         }
     ]
 }
