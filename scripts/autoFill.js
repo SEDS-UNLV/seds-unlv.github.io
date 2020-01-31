@@ -65,6 +65,11 @@ var autofill =
             "date": "Feb. 22, 8 AM - 4 PM"
         },
         {
+            "name": "Stargazing Social",
+            "location" : "Meet at UNLV",
+            "date": "Feb 22 5pm"
+        },
+        {
             "name": "Second General Meeting",
             "location" : "Location TBD",
             "date": "Mar. 4, 6 PM"
@@ -79,6 +84,7 @@ var autofill =
             "location" : "Location TBD",
             "date": "Apr. 23, 6PM"
         }
+
     ]
 }
 
