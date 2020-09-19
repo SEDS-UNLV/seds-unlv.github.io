@@ -76,10 +76,10 @@
                     <p style="color: #616161;"> 
                         <br>
                         Interested in joining SEDS UNLV? Members gain access to our projects, competitions and workshops! Develop your teamwork and leadership skills through technical projects, and gain invaluable hands-on engineering and science experience. 
-                        Members also gain opportunities to attend conferences such as <a style="color: #AE1902" href="http://seds.org/spacevision/" >SpaceVision</a> and expand their network to further their career. You can become a member of SEDS UNLV for an annual fee of $25.
+                        Members also gain opportunities to attend conferences such as <a style="color: #AE1902" href="http://seds.org/spacevision/" >SpaceVision</a> and expand their network to further their career. You can become a member of SEDS UNLV for an annual fee of $35.
                         <br>
                         <br>
-                        To join, fill out and submit the following form and submit the $25 payment via PayPal to confirm your membership.
+                        To join, fill out and submit the following form and submit the $35 payment via PayPal to confirm your membership.
                     </p>
                     <div id="paypal-button-container" style="width: 60%; display: block; margin:auto; padding-top: 30px"></div>
 
@@ -129,9 +129,15 @@
                 </div>
         </div>
             
+
+            
+  
+            
               </div><!-- .end First row -->
             </div>
     
+    
+      
         <!--    footer-->
         <div class="footer" style="background-color: black">
             <img class="footerImage" src="../imgs/SEDS_UNLV_white.png" width="100px">
@@ -144,12 +150,16 @@
             </ul>
         </div>
 
+
+        
+        
+
   </body>
 </html>
 
 <script src="../scripts/js.js"></script>
 <script src="../scripts/autoFill.js"></script> <!-- automatic updates of content -->
-<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD&disable-funding=credit,card" data-sdk-integration-source="button-factory"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
 <script>
     paypal.Buttons({
         style: {
@@ -162,7 +172,7 @@
             return actions.order.create({
                 purchase_units: [{
                     amount: {
-                        value: '25'
+                        value: '35'
                     }
                 }]
             });
