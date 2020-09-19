@@ -81,7 +81,9 @@
                         <br>
                         To join, fill out and submit the following form and submit the $25 payment via PayPal to confirm your membership.
                     </p>
-                    <div id="paypal-button-container" style="width: 60%; display: block; margin:auto; padding-top: 30px"></div>
+                    <a href="https://www.paypal.com/paypalme/sedsunlv">
+                        <img class="img-fluid" width="80%" src="../imgs/contact/paypal.jpg">
+                    </a>
 
                 </div>
                 <div class="col-md-7">
@@ -156,31 +158,3 @@
 
   </body>
 </html>
-
-<script src="../scripts/js.js"></script>
-<script src="../scripts/autoFill.js"></script> <!-- automatic updates of content -->
-<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-<script>
-    paypal.Buttons({
-        style: {
-            shape: 'rect',
-            color: 'black',
-            layout: 'vertical',
-            label: 'paypal',
-        },
-        createOrder: function(data, actions) {
-            return actions.order.create({
-                purchase_units: [{
-                    amount: {
-                        value: '25'
-                    }
-                }]
-            });
-        },
-        onApprove: function(data, actions) {
-            return actions.order.capture().then(function(details) {
-                alert('Transaction completed by ' + details.payer.name.given_name + '!');
-            });
-        }
-    }).render('#paypal-button-container');
-</script>
