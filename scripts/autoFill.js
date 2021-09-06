@@ -5,25 +5,19 @@ var autofill =
 `
 {
     "meetings_and_events": {
-        "project_meetings": {
-            "dates": [
-                "Thursdays 5:30 PM",
-                "Fridays 5:30 PM"
-            ],
-            "location": "TBE-B 162 (Machine Shop)"
-        },
         "general_meetings": {
             "dates": [
-                "Thursday, January 30th 6 PM"
+                "Thursday, Sep 9th 7PM"
                 
             ],
-            "location": " TBE-A 107"
+            "location": " Discord"
         },
         "upcoming_launches": {
             "dates": [
-                "February 15th, 2020 (Tripoli)",
-                "March 20th, 2020 (Tripoli)",
-                "April 18th, 2020 (Tripoli)"
+                "September 18th, 2021 (Tripoli)",
+                "October 15/16/17, 2021 (Tripoli)",
+                "November 20, 2021 (Tripoli)",
+                "December 18, 2021 (Tripoli)"
             ],
             "location": "Jean Roach Dry Lake"
         }
@@ -41,48 +35,46 @@ var autofill =
         "youtube": {
             "url": "https://www.youtube.com/channel/UCsZVNjRN5Dt3QDY0_PHx53A"
         },
+        "discord": {
+            "url": "https://discord.gg/huDxbjJHzy"
+        },
         "address": "SEDS UNLV 4505 S. Maryland Pkwy MS 4027, Las Vegas NV 89154"
     }, 
     "upcoming_events": [
         {
             "name": "First General Meeting",
-            "location" : "TBE A-107",
-            "date": "Jan. 30, 6 PM"
+            "location" : "Discord",
+            "date": "Sep. 9th 7pm"
         },
         {
-            "name": "Resume Workshop",
-            "location" : "TBE B-367",
-            "date": "Feb. 10, 6PM"
+            "name": "Tripoli Rocket Launch",
+            "location" : "Jean Dry Lake",
+            "date": "Sep. 18, 8AM - 2PM"
+        },
+        {
+            "name": "BALLS Launch",
+            "location" : "Black Rock Desert",
+            "date": "Sep. 24/25/26"
+        },
+        {
+            "name": "Spacevision Conference",
+            "location" : "Rice University",
+            "date": "Nov. 4/5/6"
+        },
+        {
+            "name": "Oktoberfest Launches",
+            "location" : "Jean Dry Lake Bed",
+            "date": "Oct. 15/16/17"
         },
         {
             "name": "Tripoli Rocket Launch",
             "location" : "Jean Dry Lake Bed",
-            "date": "Feb. 15, 7 AM"
-        },
-        {
-            "name": "Introduce a Kid to Engineering Day",
-            "location" : "TBE",
-            "date": "Feb. 22, 8 AM - 4 PM"
-        },
-        {
-            "name": "Stargazing Social",
-            "location" : "Meet at UNLV",
-            "date": "Feb 22 5pm"
-        },
-        {
-            "name": "Second General Meeting",
-            "location" : "Location TBD",
-            "date": "Mar. 4, 6 PM"
+            "date": "Nov. 20, 8AM - 2PM"
         },
         {
             "name": "Tripoli Rocket Launch",
             "location" : "Jean Dry Lake Bed",
-            "date": "Mar. 20, 7 AM"
-        },
-        {
-            "name": "Third General Meeting",
-            "location" : "Location TBD",
-            "date": "Apr. 23, 6PM"
+            "date": "Dec. 18, 8AM - 2PM"
         }
 
     ]
@@ -141,6 +133,9 @@ fb_tag.href = autofill_json.contact.facebook.url
 
 var yt_tag = document.getElementById('youtube_icon_link');
 yt_tag.href = autofill_json.contact.youtube.url
+
+// var discord_tag = document.getElementById('discord_icon_link');
+// discord_tag.href = autofill_json.contact.discord.url
 
 if (document.getElementById("contact_info")) {
     // address
