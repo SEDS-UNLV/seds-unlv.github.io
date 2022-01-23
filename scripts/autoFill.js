@@ -7,17 +7,19 @@ var autofill =
     "meetings_and_events": {
         "general_meetings": {
             "dates": [
-                "Thursday, Sep 9th 7PM"
-                
+                "January 31st @7p PT",
+                "February 28th @7p PT",
+                "March 28th @7p PT",
+                "April 25th @7p PT"
             ],
             "location": " Discord"
         },
         "upcoming_launches": {
             "dates": [
-                "September 18th, 2021 (Tripoli)",
-                "October 15/16/17, 2021 (Tripoli)",
-                "November 20, 2021 (Tripoli)",
-                "December 18, 2021 (Tripoli)"
+                "February 19th, 2022 (Tripoli)",
+                "March 18/19/20, 2022 (Tripoli)",
+                "April 16, 2022 (Tripoli)",
+                "May 28, 2022 (Tripoli)"
             ],
             "location": "Jean Roach Dry Lake"
         }
@@ -42,40 +44,11 @@ var autofill =
     }, 
     "upcoming_events": [
         {
-            "name": "First General Meeting",
-            "location" : "Discord",
-            "date": "Sep. 9th 7pm"
-        },
-        {
-            "name": "Tripoli Rocket Launch",
-            "location" : "Jean Dry Lake",
-            "date": "Sep. 18, 8AM - 2PM"
-        },
-        {
-            "name": "BALLS Launch",
-            "location" : "Black Rock Desert",
-            "date": "Sep. 24/25/26"
-        },
-        {
-            "name": "Spacevision Conference",
-            "location" : "Rice University",
-            "date": "Nov. 4/5/6"
-        },
-        {
-            "name": "Oktoberfest Launches",
-            "location" : "Jean Dry Lake Bed",
-            "date": "Oct. 15/16/17"
-        },
-        {
-            "name": "Tripoli Rocket Launch",
-            "location" : "Jean Dry Lake Bed",
-            "date": "Nov. 20, 8AM - 2PM"
-        },
-        {
-            "name": "Tripoli Rocket Launch",
-            "location" : "Jean Dry Lake Bed",
-            "date": "Dec. 18, 8AM - 2PM"
+            "name": "TBA",
+            "location" : "",
+            "date": ""
         }
+        
 
     ]
 }
