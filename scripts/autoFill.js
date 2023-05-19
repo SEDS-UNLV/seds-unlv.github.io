@@ -16,10 +16,9 @@ var autofill =
         },
         "upcoming_launches": {
             "dates": [
-                "February 19th, 2022 (Tripoli)",
-                "March 18/19/20, 2022 (Tripoli)",
-                "April 16, 2022 (Tripoli)",
-                "May 28, 2022 (Tripoli)"
+                "May 26th-28th, 2023 (Tripoli)",
+                "June 17, 2023 (Tripoli)",
+                "September 16, 2023 (Tripoli)"
             ],
             "location": "Jean Roach Dry Lake"
         }
