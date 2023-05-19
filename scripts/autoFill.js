@@ -7,10 +7,9 @@ var autofill =
     "meetings_and_events": {
         "general_meetings": {
             "dates": [
-                "January 31st @7p PT",
-                "February 28th @7p PT",
-                "March 28th @7p PT",
-                "April 25th @7p PT"
+                "August 31st @6p PT",
+                "September 28th @6p PT",
+                "October 28th @6p PT",
             ],
             "location": " Discord"
         },
