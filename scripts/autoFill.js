@@ -9,7 +9,7 @@ var autofill =
             "dates": [
                 "August 31st @6p PT",
                 "September 28th @6p PT",
-                "October 28th @6p PT",
+                "October 27th @6p PT",
             ],
             "location": " Discord"
         },
