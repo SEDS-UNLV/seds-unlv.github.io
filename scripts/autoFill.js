@@ -40,12 +40,12 @@ var autofill =
         "address": "SEDS UNLV 4505 S. Maryland Pkwy MS 4027, Las Vegas NV 89154"
     }, 
     "upcoming_events": [
-        
+        {
             "name":  "General Meeting 3"
             "location": "TBE A-107"
             "date": "Nov. 15th"
         
-        
+        }
 
     ]
 }
