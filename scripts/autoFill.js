@@ -41,12 +41,9 @@ var autofill =
     }, 
     "upcoming_events": [
         {
-            "name": ["General Meeting 3",
-                    "Oktoberfest Regional Launch"]
-            "location" : ["TBE A-107",
-                         "Jean Roach Dry Lake"]
-            "date": ["Nov. 15th",
-                    "Oct. 20-22]
+            "name": [ "General Meeting 3","Oktoberfest Regional Launch" ]
+            "location" : [ "TBE A-107", "Jean Roach Dry Lake" ]
+            "date": [ "Nov. 15th", "Oct. 20-22 ]
         }
         
 
