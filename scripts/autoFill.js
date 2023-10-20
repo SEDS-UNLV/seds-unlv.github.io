@@ -4,7 +4,6 @@
 var autofill = 
 `
 {
-    "meetings_and_events": {
         "general_meetings": {
             "dates": [ "August 31st @6p PT",
                 "September 28th @6p PT",
