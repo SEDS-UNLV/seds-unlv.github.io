@@ -42,7 +42,7 @@ var autofill =
     "upcoming_events": [
         {
             "name":  "General Meeting 3"
-            "location" : "TBE A-107"
+            "location": "TBE A-107"
             "date": "Nov. 15th"
         }
         
