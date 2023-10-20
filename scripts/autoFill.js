@@ -41,7 +41,7 @@ var autofill =
     }, 
     "upcoming_events": [
         {
-            "name": [ "General Meeting 3","Oktoberfest Regional Launch" ]
+            "name":  "General Meeting 3"
             "location" : "TBE A-107"
             "date": "Nov. 15th", "Oct. 20-22 
         }
