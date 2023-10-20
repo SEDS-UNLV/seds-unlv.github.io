@@ -8,14 +8,15 @@ var autofill =
         "general_meetings": {
             "dates": [ "August 31st @6p PT",
                 "September 28th @6p PT",
-                "October 27th @6p PT"],
-            "location": " Discord"
+                "Nov. 15th @5:30p PT"],
+            "location": "TBE A-107 / Discord"
         },
         "upcoming_launches": {
             "dates": [
                 "May 26th-28th, 2023 (Tripoli)",
                 "June 17, 2023 (Tripoli)",
-                "September 16, 2023 (Tripoli)"
+                "September 16, 2023 (Tripoli)",
+                "Nov. 15th"
             ],
             "location": "Jean Roach Dry Lake"
         }
@@ -40,9 +41,9 @@ var autofill =
     }, 
     "upcoming_events": [
         {
-            "name": "TBA",
-            "location" : "",
-            "date": ""
+            "name": "General Meeting 3",
+            "location" : "TBE A-107",
+            "date": "Nov. 15th"
         }
         
 
