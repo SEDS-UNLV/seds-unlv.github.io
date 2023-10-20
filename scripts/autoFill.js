@@ -43,7 +43,7 @@ var autofill =
         {
             "name":  "General Meeting 3"
             "location" : "TBE A-107"
-            "date": "Nov. 15th", "Oct. 20-22 
+            "date": "Nov. 15th"
         }
         
 
